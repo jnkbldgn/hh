@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flag {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.flag .blue {
+    background-color: #005BBB;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.flag .blue .value {
+    color: #fff;
+    font-size: 36px;
+}
+
+.flag .yellow {
+    flex-basis: 0;
+    background-color: #FFD500;
+}
